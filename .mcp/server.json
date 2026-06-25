@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.ifthenpay/payments",
+  "title": "ifthenpay Payments MCP",
+  "description": "Remote MCP server for integrating AI agents with ifthenpay payment services.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/ifthenpay/mcp-payments",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ai.ifthenpay.com/mcp/payments/"
+    }
+  ]
+}
